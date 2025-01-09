@@ -35,8 +35,8 @@ The system supports:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/dynamic-cms.git
-    cd dynamic-cms
+    git clone https://github.com/niravpatel143/practical.git
+    cd practical
     ```
 
 2. Install Laravel dependencies:
@@ -59,10 +59,16 @@ The system supports:
     php artisan migrate
     ```
 
-6. (Optional) Seed the database with sample data:
+6. Install Vue 3 dependencies:
 
     ```bash
-    php artisan db:seed
+    npm install
+    ```
+
+7. Start the development server:
+
+    ```bash
+    npm run dev or build
     ```
 
 7. Start the Laravel development server:
@@ -71,28 +77,9 @@ The system supports:
     php artisan serve
     ```
 
-### Frontend (Vue 3)
 
-1. Navigate to the `frontend` directory:
 
-    ```bash
-    cd frontend
-    ```
 
-2. Install Vue 3 dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-
-    ```bash
-    npm run dev
-    ```
-
-4. The frontend will be available at `http://localhost:3000`.
+4. The frontend will be available at `http://localhost:8000`.
 
 ## Features Breakdown
-
-### Backend (Laravel)
